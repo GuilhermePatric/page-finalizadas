@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+.inicio{
+    height:600px !important;
+}
+.section {
+
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding: 40px 4%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section:nth-of-type(1) {
+    background-image: url('/img/img\ section.jpg');
+
+}
+.section:nth-of-type(3) {
+    background-image: url('/img/2.jpg');
+
+}
+
+.section:nth-of-type(5) {
+    background-image: url('/img/5.jpg');
+
+}
+.fire{
+    margin-top: 153px;
+    
+}
+

@@ -1,0 +1,14 @@
+.menu {
+    margin-left: 117px;
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+}
+
+@media screen and (max-width:900px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+}

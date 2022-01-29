@@ -1,0 +1,27 @@
+.window{
+    
+    background-color: Black;
+    
+
+}
+.color{
+    color:white;
+}
+.montanha-png{
+    opacity:0.2;
+}
+.title-Everest{
+    font-size:60px;
+    font-family: 'IBM Plex Serif', serif;
+}
+.color-acordeon{
+    background-color: rgb(230, 255, 7);
+    color:white;
+}
+.capa-opacity{
+    opacity:0.4;
+}
+.botao{
+    padding: -80;
+    margin-left: 45%;
+}

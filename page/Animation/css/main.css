@@ -1,0 +1,127 @@
+/* .box{
+   
+    margin-top:60px;
+    height:240px;
+    width:240px;
+    background-color: aqua;
+    
+    transition-property:background-color,border-radius;
+    transition-duration:2s,1.5s;
+
+    transition-timing-function:ease-in-out;
+}
+.box:hover{
+background-color:chartreuse;
+border-radius: 50%;
+} */
+
+.menu-nav{
+    height:30px;
+}
+.nav-link{
+    width: 84.09px;
+    height:27px;
+}
+
+.button:hover{
+color:#000000;
+background-color: rgb(255, 255, 255);
+font-size: 23px;
+}
+.color {
+    color: white;
+}
+
+.mtop {
+    padding-top: 40px;
+}
+
+@keyframes gradiente {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.box {
+    animation: gradiente 2s ease alternate infinite;
+    width: auto;
+    height: 200px;
+    background: linear-gradient(-45deg, #3C1394, #E0811D, #4C07E0, #1DE038, #0C941F) no-repeat;
+    background-size: 300% 300%;
+    color: rgb(0, 0, 0);
+
+}
+
+.font {
+    font-size: 100px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+@media (min-width: 720px) and (max-width:800px) {
+    .font {
+        font-size: 90px;
+    }
+}
+
+@media (min-width: 620px) and (max-width:720px) {
+    .font {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 560px) and (max-width:620px) {
+    .font {
+        font-size: 70px;
+    }
+}
+@media (min-width: 529px) and (max-width:560px) {
+    .font {
+        font-size: 66px;
+    }
+}
+
+@media (min-width: 480px) and (max-width:528px) {
+    .mtop {
+        padding-top: 60px;
+    } 
+    .font {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 400px) and (max-width:479px) {
+    .mtop {
+        padding-top: 60px;
+    }
+    .font {
+        font-size: 50px;
+    }
+}
+@media (min-width: 300px) and (max-width:399px) {
+  .mtop {
+    padding-top: 60px;
+}
+
+    .font {
+        font-size: 40px;
+    }
+}
+
+
+
+.teste{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start !important;
+}

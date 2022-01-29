@@ -1,0 +1,82 @@
+.window{
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .texto{
+      color:white;
+  }
+  .ground{
+      background-color: black;
+  }
+  .center{
+ 
+      color:white;
+      font-family: 'Estonia', cursive;
+      font-size: 100px;
+  }
+  .img-tatoo{
+    width: 270px;
+    height: 270px;
+border-radius: 50%;
+margin:10px;
+  }
+  .img-tatoo2{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin:10px;
+  }
+  .img-tatoo3{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin:10px;
+  }
+.Text-navbar{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+}
+.feature-icon bg-primary bg-gradient{
+  background-color:black;
+}
+.ico-main-flor{
+background-image: url('/css/prints/flor.png');
+background-repeat: no-repeat;
+height:400px;
+}
+.ico-main-mina-tempo{
+
+  background-image: url('/css/prints/3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height:400px;
+}
+.ico-main-tatuador{
+  
+  background-image:url('/css/prints/sonhos\ contruindo.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: auto;
+  height:400px;
+}
+
+#navbarNav{
+  margin: 10px;
+}
+.color{
+  color:white;
+}
+.maps{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}

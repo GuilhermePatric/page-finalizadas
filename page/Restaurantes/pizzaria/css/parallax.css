@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.especifik {
+    
+    height: 700px;
+}
+
+section {
+
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding: 40px 4%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Inicinado parallax*/
+section:nth-of-type(1) {
+    background-image: url('/parallax/lanches/backg.jpg');
+
+}
+section:nth-of-type(3) {
+    background-image: url('/parallax/lanches/pizzaria.jpg');
+
+}
+section:nth-of-type(5) {
+    background-image: url('/parallax/lanches/3.jpg');
+
+}
+section:nth-of-type(7) {
+    background-image: url('/parallax/lanches/5.jpg');
+
+}
+/* fechando parallax*/
+.window{
+    background-color: black;
+   
+}
+.color{
+    color:white;
+}
+.title{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 90px;
+}
+.font-title{
+    font-family: 'Moon Dance', cursive; 
+    font-size:65px;
+}
+.height{
+    height: 200px;
+}
